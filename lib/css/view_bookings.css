@@ -1,3 +1,24 @@
+body{
+    box-sizing: border-box;
+    background-color: #AEBDCA;
+}
 .container-bookings{
-    padding: 50px;
+    background-color: azure;
+    width: 50%;
+    margin: 0 auto;
+}
+.Book-Name{
+    font-weight: 700;
+}
+table{
+    margin-top: 40px;
+    width: 60%;
+    box-shadow: 4px 4px 35px -18px rgba(0,0,0,0.15);
+}
+th{
+    font-size: 24px;
+    background-color: black;
+}
+th,table,tr,td{
+    border: none;    
 }

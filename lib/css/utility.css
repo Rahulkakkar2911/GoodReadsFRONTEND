@@ -1,3 +1,6 @@
+body{
+    background-color: #AEBDCA;
+}
 .alert{
     position: fixed;
     z-index:100000000;

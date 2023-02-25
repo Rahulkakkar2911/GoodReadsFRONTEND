@@ -1,17 +1,22 @@
+body{
+  box-sizing: border-box;
+  background-color: #AEBDCA;
+}
 .container-books{
+    padding:20px;
     display: flex;
     justify-content: space-evenly;
     flex-shrink: 0;
     flex-wrap: wrap;
 }
 .card-book{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 10px;
-    background-color: aliceblue;
+    background-color: #EFEFEF;
     width: 400px;
-    height: 350px;
+    height: 300px;
     border-radius: 7px;
-    box-shadow: 4px 4px 35px -18px rgba(0,0,0,0.35);
+    box-shadow: 4px 4px 35px -18px rgba(0,0,0,0.15);
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -47,7 +52,7 @@ header{
     margin: auto;
     padding: 20px;
     border: 1px solid #888;
-    width: 80%;
+    width: 40%;
   }
   
   /* The Close Button */
@@ -63,4 +68,19 @@ header{
     color: #000;
     text-decoration: none;
     cursor: pointer;
+  }
+  .yes-btn{
+    padding: 10px 26px;
+    margin-right: 10px;
+  }
+  .no-btn{
+    padding: 10px 26px;
+  }
+
+  .text-modal{
+    font-size:20px;
+  }
+  .Book-Name{
+    font-size: 16px;
+    font-weight: 600;
   }
