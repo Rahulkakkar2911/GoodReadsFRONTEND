@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Signin - GoodReads</title>
+    <meta name="description" content="Login - Register Template">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="lib/css/style.css">
+    <link rel="shortcut icon" href="./lib/img/gr_logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="lib/css/utility.css">
+    <style>
+        body {
+            background-color: #303641;
+        }
+    </style>
+    <script src="lib/js/jquery-3.6.3.js"></script>
+</head>
+
+<body>
+    <div class="alert"></div>
+    <div id="container-login">
+        <div id="title">
+            <i class="material-icons lock">lock</i> Login
+        </div>
+
+        <form>
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">face</i>
+                </div>
+                <input id="username" placeholder="Username" type="text" required class="validate" autocomplete="off">
+            </div>
+
+            <div class="clearfix"></div>
+
+            <div class="input">
+                <div class="input-addon">
+                    <i class="material-icons">vpn_key</i>
+                </div>
+                <input  id="password" placeholder="Password" type="password" required class="validate" autocomplete="off">
+            </div>
+            <input class="submit-btn" type="submit" value="Log In" />
+        </form>
+
+        <div class="privacy">
+            <a href="#">Privacy Policy</a>
+        </div>
+
+        <div class="register">
+            Don't have an account yet?
+            <a href="./signup.html"><button id="register-link">Signup</button></a>
+        </div>
+    </div>
+    <script src="./lib/js/commonjs.js"></script>
+    <script src="lib/js/signin.js"></script>
+</body>
+
+</html>

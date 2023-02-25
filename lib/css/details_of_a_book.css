@@ -1,0 +1,14 @@
+body{
+    min-height:100vh;
+}
+.container-books-details{
+    margin-top: 50px;
+    background-color: #ECF9FF;
+    padding: 30px;
+    border-radius: 7px;
+    padding-left: 100px;
+    box-shadow: 9px 6px 48px -29px rgba(0,0,0,0.11);
+}
+.book-details{
+    font-size: 26px;
+}

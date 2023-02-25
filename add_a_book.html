@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous"></script>
+     <script src="lib/js/jquery-3.6.3.js"></script>
+     <link rel="stylesheet" href="./lib/css/utility.css">
+     <link rel="shortcut icon" href="./lib/img/gr_logo.jpg" type="image/x-icon">
+     <title>Add a Book</title>
+</head>
+
+<body>
+     <div class="alert"></div>
+     <header class="p-3 text-bg-dark">
+          <div class="container">
+            <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+              <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+                <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+              </a>
+      
+              <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="#" class="nav-link px-2 text-white">GoodReads</a></li>
+                <li><a href="#" class="nav-link px-2 text-secondary">About</a></li>
+              </ul>
+      
+              <div class="text-end">
+                <button type="button" class="btn btn-secondary me-2 back-to-books-btn">Back to Books</button>
+                <button type="button" class="btn btn-outline-light me-2 user-text">Hello, User</button>
+                <button type="button" class="btn btn-danger logout-btn">Logout</button>
+              </div>
+            </div>
+          </div>
+        </header>
+
+
+     <form class='text-center mt-5 container' style="width: 40%;">
+
+          <!-- <div class='alert alert-warning'>
+             <button type='button' class='close' data-dismiss='alert'>&times;</button>
+        </div> -->
+
+          <h1 class='display-4 text-center'>Add Book</h1><br>
+          <div class="input-group mb-3">
+               <!-- <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-book"></i></span>
+             </div> -->
+               <input type="text" class="form-control input-bname" placeholder="Name" required autofocus>
+          </div>
+          <div class="input-group mb-3">
+               <!-- <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-user"></i></span>
+             </div> -->
+               <input type="text" class="form-control input-bauthor" placeholder="Author" required>
+          </div>
+          <div class="input-group mb-3">
+               <!-- <div class="input-group-prepend">
+                  <span class="input-group-text"><i class="fa fa-copy"></i></span>
+             </div> -->
+               <input type="number" class="form-control input-bqty" placeholder="Quantity" required min="1">
+          </div>
+          <button class='btn btn-lg btn-primary btn-block submit-btn' type='submit'>Submit</button>
+     </form>
+     <script src="./lib/js/commonjs.js"></script>
+    <script src="./lib/js/auth.js"></script>
+     <script src="./lib/js/add_a_book.js"></script>
+</body>
+
+</html>
