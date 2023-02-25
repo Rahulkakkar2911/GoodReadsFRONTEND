@@ -1,0 +1,62 @@
+   body {
+    color: #222222;
+    font-size: 1em;
+    font-family: 'Open Sans', "Helvetica Neue", sans-serif;
+  }
+  
+  .introduction > p, 
+  .location > p
+    {
+    font-weight: 300;
+    letter-spacing: 0.05em;
+  }
+
+
+  .starcontainer h2 {
+    font-size: 2.8em;
+    margin-bottom: 0.2em;
+  }
+  
+  .starcontainerportfolio > h2 {
+    text-align: center;
+    font-size: 2.8em;
+    margin-bottom: 0.2em;
+  }
+  
+  .fa-star {
+    margin-bottom: 0 auto;
+  }
+  
+  hr {
+    border: 2px solid #a1a1a1;
+    width: 15.7em;
+    margin-top: -1em;
+    margin-bottom: 2em; 
+    background-color: white;
+  }
+  
+  hr, .fa-star {
+    background-color: #fff;
+    padding: 0 .25em
+  }
+  
+  .starcontainer .fa {
+    color: #a1a1a1;
+  }
+  
+  .starcontainerportfolio .fa {
+    color: #a1a1a1;
+    display: inline-block;
+  }
+  .starcontainer,
+  .starcontainerportfolio {
+    text-align: center;
+  }
+
+  .introduction, 
+  .location{
+    max-width: 38em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+  }
